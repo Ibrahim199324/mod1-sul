@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.menu-section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+  display: inline-flex;
+}
+
+.menu-section h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+   background-color: #ffcccc;
+   border: 2px solid rgb(225, 65, 65);
+  
+}
+@media (min-width:1200px)
+{
+    .Mercedes-G-Class{
+        width: 30%;
+    }
+    .Mercedes-Benz{
+        width:30%;
+
+    }
+    .Mercedes-Maybach{
+        width:30%;
+
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .Mercedes-Benz{
+        width:45%;
+
+    }
+    .Mercedes-G-Class{
+        width:45%;
+
+    }
+    .Mercedes-Maybach{
+        width:92%;
+
+    }
+}
+@media (max-width:991px) and (min-width:767px)
+{
+    .Mercedes-G-Class{
+        width: 100%;
+    }
+    .Mercedes-Benz{
+        width:100%;
+
+    }
+    .Mercedes-Maybach{
+        width:100%;
+
+    }
+
+}
+
+
+.Mercedes-Benz {
+    color: rgb(7, 6, 6);
+
+    background-color: #e1dada;
+}
+
+.Mercedes-G-Class {
+    background-color: #e1dddd;
+    color: rgb(17, 11, 11);
+
+}
+
+.Mercedes-Maybach {
+    background-color: #e1dada;
+    color: rgb(19, 13, 13);
+}
